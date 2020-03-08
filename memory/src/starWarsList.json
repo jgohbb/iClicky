@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "BobaFett",
+    "image": "images/bobafett.png"
+  },
+  {
+    "id": 2,
+    "name": "Chewbacca",
+    "image": "images/chewbacca.png"
+  },
+  {
+    "id": 3,
+    "name": "Finn",
+    "image": "images/Finn.png"
+  },
+  {
+    "id": 4,
+    "name": "KyloRen",
+    "image": "images/kylo.png"
+  },
+  {
+    "id": 5,
+    "name": "PrincessLeia",
+    "image": "images/leia.png"
+  },
+  {
+    "id": 6,
+    "name": "LukeSkywalker",
+    "image": "images/luke.png"
+  },
+  {
+    "id": 7,
+    "name": "ObiWanKenobi",
+    "image": "images/obiwankenobi.png"
+  },
+  {
+    "id": 8,
+    "name": "Rey",
+    "image": "images/rey.png"
+  },
+  {
+    "id": 9,
+    "name": "C3p0&R2D2",
+    "image": "images/robots.png"
+  },
+  {
+    "id": 10,
+    "name": "HanSolo",
+    "image": "images/solo.png"
+  },
+  {
+    "id": 11,
+    "name": "DarthVader",
+    "image": "images/vader.png"
+  },
+  {
+    "id": 12,
+    "name": "Yoda",
+    "image": "images/yoda.png"
+  },
+  {
+    "id": 13,
+    "name": "PoeDameron",
+    "image": "images/poe.png"
+  },
+  {
+    "id": 14,
+    "name": "StormTrooper",
+    "image": "images/stormtrooper.png"
+  },
+  {
+    "id": 15,
+    "name": "BB8",
+    "image": "images/bb8.png"
+  }
+]

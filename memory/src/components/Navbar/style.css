@@ -1,0 +1,7 @@
+nav {
+  background-color: rgba(204, 28, 28, 0.698);
+  color: whitesmoke;
+  height: 100px;
+  font-family: "Alegreya", serif;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
