@@ -3,11 +3,11 @@ img {
   height: 220px;
   border-style: solid;
   border-width: 2px;
-  border-color: rgba(76, 0, 130, 0.829);
+  border-color: red;
 }
 
 .hover11 {
-  background: #1abc9c;
+  background: #08011f;
 }
 
 .hover11 img {

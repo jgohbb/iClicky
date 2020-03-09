@@ -1,7 +1,9 @@
-html {
-  background-color: black;
-  /* filter: invert(1) hue-rotate(180deg); */
-}
+/* html {
+  /* background-size: cover;
+  background-image: url(/memory/public/images/stars.jpg);
+  background-color: red; */
+/* filter: invert(1) hue-rotate(180deg);
+} */
 
 body {
   margin: 0;
@@ -11,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background: black;
 }
 
 code {
