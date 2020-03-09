@@ -5,7 +5,7 @@
 This is a memory game using React where application's UI are broken into components, component state are managed and respond to user events. There are 15 character images from the Star Wars franchise and you are allowed to click each character once. If you fail to complete the game, the scoreboard will show your highest score acheived. Once you are able to memorise and complete the game, you can restart by clicking the the image to reset the scores. Enjoy and may the FORCE be with you!
 
 Click here to visit the live website:
-https://mongodb-scraper-jgoh.herokuapp.com/
+https://iclicky-react-game.herokuapp.com/
 
 ## <a name="instructions"> Instructions </a>
 
