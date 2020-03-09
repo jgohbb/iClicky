@@ -1,0 +1,19 @@
+{
+  "name": "iclicky",
+  "version": "1.0.0",
+  "description": "Star Wars Memory Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgohbb/iClicky.git"
+  },
+  "author": "jgoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgohbb/iClicky/issues"
+  },
+  "homepage": "https://github.com/jgohbb/iClicky#readme"
+}

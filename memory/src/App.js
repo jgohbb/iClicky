@@ -3,7 +3,7 @@ import NavBar from "./components/Navbar";
 import MemoryCard from "./components/Cards";
 import starWarsList from "./starWarsList.json";
 
-const footStyle = {
+const footerStyle = {
   "background-color": "rgba(204, 28, 28, 0.698)",
   color: "whitesmoke ",
   height: "60px",
@@ -31,26 +31,19 @@ class App extends Component {
       this.setState({
         clickedIds: [],
         score: 0,
-        message: "You guessed wrong..use the FORCE and try again. "
+        message: "You guessed wrong...use the FORCE and try again. "
       });
       return;
     } else {
-      //Update the state with updated values
       this.setState({
-        //Add clicked picture to the array
         clickedIds: this.state.clickedIds.concat([id]),
-        //Increment Score
         score: this.state.score + 1,
-        // topScore: this.state.score + 1,
-        //Display Message
-        message: "You guessed right..the FORCE is strong with this one."
+        message: "You guessed right...the FORCE is strong with this one."
       });
       console.log("Score", this.state.score);
       console.log("TopScore", this.state.topScore);
 
-      //scorer is 12 you win th game
       if (this.state.score + 1 === 15) {
-        // Shuffle Array.
         this.handleShuffleArray(starWarsList);
         this.setState({ starWarsList: shuffledArray });
 
@@ -93,7 +86,7 @@ class App extends Component {
           <h3 className="text-center text-danger">
             Do not click the same image twice!
           </h3>
-          {/* Loop through all the items in the static list  */}
+
           {this.state.starWarsList.map(character => (
             <MemoryCard
               id={character.id}
@@ -105,7 +98,7 @@ class App extends Component {
             />
           ))}
         </div>
-        <footer style={footStyle}>
+        <footer style={footerStyle}>
           <center className="p-3">
             <a
               href="https://github.com/jgohbb/iClicky"
