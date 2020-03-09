@@ -21,7 +21,7 @@ The codes are availabe in GitHub and repo can be found at the end of the page. O
 
 **Home Page** Game Page.
 
-![Home](./public/images/home.png)
+![Home](/memory/public/images/home.png)
 
 ## <a name="improvements"> Improvements </a>
 
